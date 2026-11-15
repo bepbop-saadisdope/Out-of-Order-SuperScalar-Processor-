@@ -3,3 +3,7 @@ __pycache__/
 *.o
 *~
 .vscode/
+simplesim-3.0/sim-outorder
+simplesim-3.0/sysprobe
+simplesim-3.0/*.a
+simplesim-3.0/libexo/*.a
