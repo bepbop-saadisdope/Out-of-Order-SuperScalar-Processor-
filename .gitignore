@@ -1,4 +1,5 @@
-*.o
-sim-outorder
 __pycache__/
 *.pyc
+*.o
+*~
+.vscode/
