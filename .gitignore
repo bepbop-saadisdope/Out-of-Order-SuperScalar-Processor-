@@ -7,3 +7,10 @@ simplesim-3.0/sim-outorder
 simplesim-3.0/sysprobe
 simplesim-3.0/*.a
 simplesim-3.0/libexo/*.a
+build/
+search_runs/
+__pycache__/
+*.o
+*.a
+sim-outorder
+sysprobe

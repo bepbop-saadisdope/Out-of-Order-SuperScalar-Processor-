@@ -56,3 +56,15 @@ already exists, so an interrupted script can simply be rerun.
 
 - SimpleScalar 3.0 by Todd Austin: https://github.com/toddmaustin/simplesim-3.0
 - SPEC95 PISA binaries and inputs: https://github.com/priyankarroychowdhury3/Simplescalar
+Group 13 - Computer Architecture BCS-5F - SimpleScalar sim-outorder project
+Benchmarks: anagram + go  ((13-1) mod 6 = 0)
+
+Report.pdf / Project_Report_G13.docx   report (Parts 1-6)
+scripts/    batch scripts (run_all_1to5.sh, run_part6.sh, ...), part6_search.py (genetic algorithm), graph/report builders
+configs/    the .cfg file of every run (-dumpconfig)
+results/    raw simulator outputs (-redir:sim), unedited
+progout/    program outputs of the Part 1 runs (compared with Expected_Output)
+data/       all_stats.csv, part6_candidates.csv, part6_designs.json, part6_search_summary.json, part6_search.log
+graphs/     all figures used in the report
+commands.log  every simulator command that was run
+Re-run: export SIM=<path to sim-outorder> BENCH=<path to BenchMarks_Little>; bash scripts/run_all_1to5.sh; python3 scripts/part6_search.py search; python3 scripts/make_part6.py; bash scripts/run_part6.sh

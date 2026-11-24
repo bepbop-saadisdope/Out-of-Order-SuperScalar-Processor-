@@ -1,0 +1,3 @@
+# Part 1(a): does the program output match Expected_Output?  (empty output after each command = identical)
+$ diff progout/anagram.P1.default.out Expected_Output/anagram.out
+$ diff progout/go.P1.default.out Expected_Output/go.out
